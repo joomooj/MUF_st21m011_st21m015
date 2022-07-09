@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/navFragment">
+
+    <fragment
+        tools:layout="@layout/nav_fragment"
+        android:id="@+id/navFragment"
+        android:name="com.example.muf_mayer_zainzinger.NavFragment"
+        android:label="NavFragment" >
+        <action
+            android:id="@+id/action_navFragment_to_feedbackFragment2"
+            app:destination="@id/feedbackFragment" />
+        <action
+            android:id="@+id/action_navFragment_to_monitoringFragment"
+            app:destination="@id/monitoringFragment" />
+    </fragment>
+
+    <fragment
+        tools:layout="@layout/mon_fragment"
+        android:id="@+id/monitoringFragment"
+        android:name="com.example.muf_mayer_zainzinger.MonitoringFragment"
+        android:label="MonitoringFragment" />
+    <fragment
+        tools:layout="@layout/feed_fragment"
+        android:id="@+id/feedbackFragment"
+        android:name="com.example.muf_mayer_zainzinger.FeedbackFragment"
+        android:label="FeedbackFragment" />
+</navigation>

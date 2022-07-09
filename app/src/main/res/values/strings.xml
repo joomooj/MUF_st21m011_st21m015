@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MUF_Mayer_Zainzinger</string>
+    <string name="mon_button">Monitoring</string>
+    <string name="feed_button">Feedback</string>
+    <string name="button">Button</string>
+    <string name="button2">Button2</string>
+    <string name="output">Acceleration Data</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_start">Start</string>
+    <string name="sensorData">Data</string>
+    <string name="xLabel">\X: \</string>
+    <string name="yLabel">\Y: \</string>
+    <string name="zLabel">\Z: \</string>
+
+</resources>
